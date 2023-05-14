@@ -1,41 +1,49 @@
-# Website
+# Introduction
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![Alt text](static/img/Docusaurus%20Authentication.png)
+
+- [Introduction](#introduction)
+  - [Branch Setup](#branch-setup)
+  - [How to use](#how-to-use)
+    - [Installation](#installation)
+    - [Local Development](#local-development)
+    - [Deployment](#deployment)
+
+## Branch Setup
+
+## How to Use
 
 ### Installation
 
-```
-$ yarn
+```bash
+npm install
 ```
 
 ### Local Development
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This command starts a local development server and opens up a browser window.
+Most changes are reflected live without having to restart the server.
 
 ### Deployment
 
-Using SSH:
+To build the static files of your website for production, run:
 
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+npm build
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This command generates static content into the `build` directory and can be
+served using any static contents hosting service.
+
+You can deploy your site to static site hosting services such as
+[Vercel](https://vercel.com/), [GitHub Pages](https://pages.github.com/),
+[Netlify](https://www.netlify.com/),
+[Render](https://render.com/docs/static-sites),
+[Surge](https://surge.sh/help/getting-started-with-surge)...
+
+> You may check on the main Docusaurus website for further information on how to
+> deploy your website, [here](https://docusaurus.io/docs/deployment).
