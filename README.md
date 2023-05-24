@@ -1,6 +1,6 @@
 # Introduction
 
-![Alt text](static/img/Docusaurus%20Authentication.png)
+![Alt text](static/img/docusaurus-auth-cognito.png)
 
 - [Introduction](#introduction)
   - [Branch Setup](#branch-setup)
